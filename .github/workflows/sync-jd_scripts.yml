@@ -18,7 +18,7 @@ jobs:
       env:
          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       with:
-        source_repo: "git@gitee.com:lxk0301/jd_scripts.git"
+        source_repo: "仓库地址"
         source_branch: "master"
         destination_branch: "master"
         github_token: ${{ secrets.PAT }}
